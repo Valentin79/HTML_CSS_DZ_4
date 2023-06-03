@@ -1,0 +1,124 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.cdnfonts.com/css/gilroy-medium');
+                
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.top{
+    height: 700px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+}
+
+.header_blok_link{
+    display: flex;
+    justify-content: space-between;
+    width: 533px;
+    height: 17px;
+    font-family: 'gilroy-medium';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header_link{
+    color: black;
+}
+
+.header_link_home{
+    color: #F25822;
+}
+
+.top_content_body{
+    display: flex;
+    gap: 41px;
+    padding-top: 21px;
+}
+
+
+.title{
+    width: 522px;
+    height: 222px;
+    font-family: 'gilroy-bold';
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text{
+    padding-top: 17px;
+    width: 466px;
+    height: 48px;
+    font-family: 'gilroy-medium';
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.top_content_buttons{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 303px;
+    height: 50px;
+}
+
+.button_1{
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    font-family: 'gilroy-bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+
+    
+}
+
+.button_2{
+    width: 90px;
+    height: 19px;
+    border: none;
+    background: none;
+    font-family: 'gilroy-bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+
+
+}
+
+.top_logos{
+    height: 243px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
